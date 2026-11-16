@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Mad Arrow</title>
+<style>
+  html,body{margin:0;height:100%;background:#000;overflow:hidden}
+  #container{width:100vw;height:100vh}
+  ruffle-player{width:100% !important;height:100% !important}
+</style>
+</head>
+<body>
+<div id="container"></div>
+<script src="ruffle/ruffle.js"></script>
+<script>
+  window.RufflePlayer = window.RufflePlayer || {};
+  window.addEventListener("DOMContentLoaded", () => {
+    const ruffle = window.RufflePlayer.newest();
+    const player = ruffle.createPlayer();
+    document.getElementById("container").appendChild(player);
+    player.load("mad-arrow.swf");
+  });
+</script>
+</body>
+</html>

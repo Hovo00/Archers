@@ -1,0 +1,12 @@
+# Internet Archive scraper files (not part of the game)
+*.torrent
+*_meta.sqlite
+*_meta.xml
+*_files.xml
+*_thumb.jpg
+00_coverscreenshot*
+__ia_thumb.jpg
+screenshot_*.png
+mad-arrow.jpg
+mad-arrow_screenshot.gif
+mad-arrow-play.zip
